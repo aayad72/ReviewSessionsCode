@@ -38,7 +38,8 @@ Sure! The way it works is:
  API test automation with RestAssured, Postman etc
  DATABASE test automation SQL, JDBC
  
- 
+ ------------
+ I run my smoke and regression tests from jenkins in EC2 machine via GRID or i can run locally. 
  
 
 

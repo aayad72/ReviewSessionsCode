@@ -31,7 +31,7 @@ public class EtsySteps {
 	public void user_in_on_Etsy_homepage() throws MalformedURLException {
 	   //WebDriverManager.chromedriver().setup();
 	   //driver = new ChromeDriver();
-		DesiredCapabilities caps = DesiredCapabilities.chrome();
+	   DesiredCapabilities caps = DesiredCapabilities.chrome();
 	   caps.setPlatform(Platform.ANY);
 	   driver = new RemoteWebDriver(
 			             new URL("http://34.223.219.142:4444/wd/hub"),
